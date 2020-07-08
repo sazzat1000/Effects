@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  font-family: Roboto, sans-serif;
+}
+.container {
+  width: 1140px;
+  margin: auto;
+}
+button {
+  padding: 15px 35px;
+  border-radius: 3px;
+  background: linear-gradient(to right, #1d4350, #a43931); 
+  border: none;
+  color: #fff;
+  transition: 3s;
+  cursor: pointer;
+}
+button:hover {
+  background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+button:focus {
+  outline: 0;
+}
+.block {
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(to right, #000046, #1cb5e0);
+  position: relative;
+  border-radius: 5px;
+  margin: 30px 0;
+  text-align: center;
+}
+.block-2 {
+  background: linear-gradient(to right, #f2994a, #f2c94c); 
+}
+.block-3 {
+  background: linear-gradient(to right, #485563, #29323c); 
+}
+.block-4 {
+  background: orangered;
+}
+.block-5 {
+  background: deeppink;
+  width: 25%;
+  transition: 1s;
+}
+.block p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  color: #fff;
+}
+#show {
+  display: none;
+}
+.class-1 {
+  width: 200px;
+  background: sandybrown;
+  transition: 2s;
+}
+.class-2 {
+  width: 70%;
+  background: springgreen;
+  transition: 2s;
+}
+.blue {
+  width: 50%;
+  background: blue;
+  
+}
+.deeppink {
+  width: 75%;
+  background: deeppink; 
+}
+.yellow {
+  width: 100%;
+  background: yellow; 
+  position: absolute;
+  right: 0;
+}
+.red {
+  width: 40%;
+  height: 500px;
+  background: red; 
+}
